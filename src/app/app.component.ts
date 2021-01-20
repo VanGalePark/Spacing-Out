@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Spacing-Out';
+  buttons: string[] = ['Planets', 'Stars', 'Theories', "Fun Facts"]
 }

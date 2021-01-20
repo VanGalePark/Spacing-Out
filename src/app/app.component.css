@@ -1,0 +1,52 @@
+html,body {
+    width: 100%;
+}
+
+html {
+    background: url(/assets/stars.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    background-color: #abf4ff;
+    border: outset;
+    border-color: #6e969c;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;   
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+    padding: 20px 40px;
+    width: 400px;
+    margin: 20px 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+.button:hover {
+    background-color: #73a1c9;
+}
+
